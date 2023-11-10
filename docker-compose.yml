@@ -1,0 +1,26 @@
+---
+version: "2"
+services:
+  db:
+    image: postgres:14.1-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER
+      - POSTGRES_PASSWORD
+    ports:
+      - 5432:5432
+    volumes:
+      - /var/lib/postgresql/data
+  website:
+    build: app/.
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL
+      - BUCKET
+      - REGION
+      - ACCESS_KEY_ID
+      - SECRET_ACCESS_KEY
+      - SESSION_TOKEN
+    ports:
+      - 3000:3000

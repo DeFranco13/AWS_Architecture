@@ -1,0 +1,124 @@
+header, footer{
+    width: 100%;
+    height: 4.5rem;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+}
+header h1{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    font-weight: 700;
+    padding-top: 0.5rem;
+}
+
+.navMenu{
+    border-bottom: 0.1px solid black;
+
+}
+.navMenu nav ul{
+    display: flex;
+    margin-left: 35%;
+    margin-right: auto;
+    width: 18%;
+}
+.navMenu nav ul li{
+    text-align: center;
+    padding: 0.7rem;
+
+}
+.navMenu nav ul li a{
+    background-color: #4a4ac0;
+    text-decoration: none;
+    font-size: 160%;
+    font-weight: 700;
+    display: block;
+    width: 10rem;
+    height: 3rem;
+    padding-top: 0.7rem;
+    color: white;
+    border-radius: 10px;
+}
+.navMenu nav ul li a:hover{
+    background-color: white;
+    color: #4a4ac0
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+
+}
+
+.my-2Box{
+    display: flex;
+    justify-content: center;
+}
+.my-2Name{
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+}
+.btn-primary{
+    margin-left: 1rem;
+}
+
+.my-3 h1{
+    margin-top: 1rem;
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+}
+.my-3 h2{
+    font-size: 120%;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/*.my-3files{
+
+}*/
+.searchbar {
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.searchbar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #bbbbbb;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    width: 70%;
+
+}
+
+.searchbar button {
+    background-color: #4CAF50;
+    color: white;
+    border: #4CAF50;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    padding: 11px;
+    font-size: 16px;
+    width: 20%;
+
+}
+.files{
+    margin-top: 1rem;
+}
+.file input{
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
